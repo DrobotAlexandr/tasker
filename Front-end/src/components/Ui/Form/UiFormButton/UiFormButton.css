@@ -1,0 +1,18 @@
+.SubmitButton .disable {
+    background: #dee2e6 !important;
+    border: 1px solid #dee2e6 !important;
+    pointer-events: none;
+}
+
+.SubmitButton .spinner-border {
+    margin-top: 3px;
+    color: #000 !important;
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+    .SubmitButton .btn {
+        width: 100%;
+    }
+}
